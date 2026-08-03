@@ -10,12 +10,13 @@ isGreater(a,b)
 def islesser(a, b):
     pass                #so it skips the function
 
-#ex
+#ex--1
 def greet_user(name,age):
     print("Hello, " + name + "!")
     print(age, "years old!")
 greet_user("Alice",20)
-#
-def greet_user(c,d):
-    print("Hello, " + c + "!")
-    print(d, "years old!")
+#--2
+def add_numbers(num1, num2):
+ total = num1 + num2
+ return total
+add_numbers(5,10)   #calling part

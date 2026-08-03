@@ -19,4 +19,19 @@ greet_user("Alice",20)
 def add_numbers(num1, num2):
  total = num1 + num2
  return total
-add_numbers(5,10)   #calling part
+add_numbers(5,10)#calling part
+result=add_numbers(5,10)
+#ex--3
+def calculate_score(Points,Bonus=0):
+    total = Points + Bonus
+    return total
+calculate_score(100,50)
+print(calculate_score(100,50))
+#abs function
+number=float(input("Enter a number:"))
+if number>0:
+    print(number)
+elif number==0:
+    print(number)
+else:
+    print(abs(number))

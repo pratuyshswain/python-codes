@@ -86,3 +86,22 @@ print(rounded_numbers(1.123456))
 def rounded_numbers(num):
     return round(num,2)
 print(rounded_numbers(1.123456))
+#arbitrary positional arg(*arg)
+def add_numbers(*args):
+    return sum(args)
+print(add_numbers(1,2,3,4,5,6,7,8,9))
+#ex 2
+def greetings(*names):
+ for name in names:
+  print(f"Hello, {name}!")
+greetings("Madhav", "Rishabh", "Visakha")   #By adding the f, Python knows to swap out the {name} placeholder for the actual names
+#Example of arbitrary keyword arguments
+def shopping_cart(**products):
+ total = 0
+ print("Items Purchased:")
+ for item, price in products.items():
+  print(f"{item}: ₹{price}")
+ total += price
+ print(f"Total: ₹{total}")
+# multiple keyword arguments
+shopping_cart(apple=15, orange=12, mango=10)

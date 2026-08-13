@@ -32,7 +32,7 @@ fruits = ["apple", "banana", "cherry"]
 # Using for loop
 for fruit in fruits:
  print(fruit)
-# Using while loop
+#Using while loop
 index = 0
 while index < len(fruits):
  print(fruits[index])

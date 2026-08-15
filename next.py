@@ -19,3 +19,24 @@ print(l)
 #3. list.index()
 colours=["blue","red","green","orange","yellow","purple","pink","brown"]
 print(colours.index("red"))
+#list.index
+colours=["blue","red","green","orange","yellow","purple","pink","brown"]
+print(colours.index("yellow"))
+#list.count
+l=[1,2,3,4,5,10,7,8,11,1,1]
+print(l.count(1))
+#list.copy
+lis=[1,2,3,4,5,6,7,9]
+new_lis=lis.copy()
+print(new_lis)
+#list.insert()
+animals=["cow","tiger","monkey","dog","cat"]
+animals.insert(0,"pig")
+print(animals)
+#list.extend
+animal=["cow","tiger","monkey","dog","cat"]
+colours=["blue","red","green","orange","yellow","purple","pink","brown"]
+animal.extend(colours)
+print(animal)
+
+

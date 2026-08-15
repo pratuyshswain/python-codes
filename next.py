@@ -38,5 +38,17 @@ animal=["cow","tiger","monkey","dog","cat"]
 colours=["blue","red","green","orange","yellow","purple","pink","brown"]
 animal.extend(colours)
 print(animal)
-
+#list.remove()
+animal=["cow","tiger","monkey","dog","cat"]
+animal.remove("cow")
+print(animal)
+#list.pop()
+fruits = ["apple", "banana", "cherry"]
+snack = fruits.pop(1)
+print(fruits)
+print(snack)
+#list.clear()
+animal=["cow","tiger","monkey","dog","cat"]
+animal.clear()
+print(animal)
 

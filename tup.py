@@ -41,3 +41,14 @@ fruits = ("apple", "mango", "cherry")
 print(fruits.count("apple"))
 #index method()
 print(fruits.index("mango"))
+#packing items in a tuple
+a = "Madhav"
+b = 21
+c = "Engineer"
+pack_tuple = a,b,c # Packing values into a tuple
+print(pack_tuple)
+#unpacking a tuple
+a,b,c=pack_tuple
+print(a)
+print(b)
+print(c)

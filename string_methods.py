@@ -31,5 +31,25 @@ print(str_2.count("p"))
 #10.endswith()
 ctr="welcome to the park"
 print(ctr.endswith("to",2,10))
+#11.find()
+sr="python is a coding language , it is not a snake "
+print(sr.find("is"))
+#12.index()
+p="i have a cat"
+print(p.index("cat"))
+#13.isalnum()
+A="Wellcome001"
+print(A.isalnum())
+#14.isalpha()
+A="Wellcome001"
+print(A.isalpha())
+#15.islower()
+A="wellcome"
+print(A.islower())
+#16.isupper()
+a="WELLCOME"
+print(a.isupper())
+#17.
+
 
 

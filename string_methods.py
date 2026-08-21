@@ -49,7 +49,21 @@ print(A.islower())
 #16.isupper()
 a="WELLCOME"
 print(a.isupper())
-#17.
-
-
-
+#17.isprintsble()
+str6="wellcome\n"
+print(str6.isprintable())  #returns false
+# 18.isspace()
+str4="  "
+print(str4.isspace()) #return true
+#19.istitle()
+str5="There Is A Lion"
+print(str5.istitle()) #returns true
+#20.startswith()
+prat="my name is Patrick"
+print(prat.startswith("my name"))#returns true
+#21.swapcase()
+st21="Python Is A Language"
+print(st21.swapcase())
+#22.title
+T="his name is dan and he has a cat"
+print(T.title())

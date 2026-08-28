@@ -1,24 +1,25 @@
-#questions
-from multiprocessing.resource_sharer import stop
 import sys
+
+#Questions
+from multiprocessing.resource_sharer import stop
 Q_1="What is the capital city of Australia?"
 Q_2= "What is the chemical symbol for gold?"
 Q_3="Who wrote the play Romeo and Juliet?"
 Q_4="Which planet in our solar system is known as the Red Planet?"
 Q_5="How many bones are in the adult human body?"
-#options for q_1
+#Options
 op_1=["A) Sydney","B) Melbourne","C) Canberra","D) Perth"]
 op_2=["A) Ag","B) Au","C) Fe","D) Gd"]
 op_3=["A) Charles Dickens","B) Jane Austen","C) Mark Twain","D) William Shakespeare"]
 op_4=["A) Venus","B) Mars","C) Jupiter","D) Saturn"]
 op_5=["A) 196","B) 206","C) 216","D) 226"]
-#answers
+#Answers
 Answer_1="Canberra"
 Answer_2="Au"
 Answer_3="William Shakespeare"
 Answer_4="Mars"
 Answer_5="206"
-#questions and answers logic
+#Questions and answers logic
 print(Q_1)
 print(op_1)
 your_answer_1=input("\nEnter your answer: ")

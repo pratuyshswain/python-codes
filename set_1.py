@@ -85,3 +85,10 @@ if "a" in set_2:
     print("a is present")
 else:
     print("a is not present")
+#set iteration
+num={1,2,3,5,6,}
+for x in num:
+    print(x)
+#set comprehension
+squares={2**x for x in range(10,19)}
+print(squares)

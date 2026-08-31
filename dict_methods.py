@@ -1,5 +1,5 @@
-#dictionary methods
-#1.update()
+# dictionary methods
+# 1.update()
 dicti_1={"a":1,"b":2,"c":3,"d":4,"e":5}
 dicti_2={"a":9,"b":8,"t":3,"f":4}
 dicti_1.update(dicti_2)

@@ -41,6 +41,9 @@ fruits = ("apple", "mango", "cherry")
 print(fruits.count("apple"))
 #index method()
 print(fruits.index("mango"))
+#as_integer_ratio()returns two nums in (x,y)where x/y is a
+a = 0.5
+print(a.as_integer_ratio())
 #packing items in a tuple
 a = "Madhav"
 b = 21

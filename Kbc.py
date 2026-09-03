@@ -1,7 +1,7 @@
 import sys
 
 #Questions
-from multiprocessing.resource_sharer import stop
+
 Q_1="What is the capital city of Australia?"
 Q_2= "What is the chemical symbol for gold?"
 Q_3="Who wrote the play Romeo and Juliet?"
@@ -31,7 +31,6 @@ if your_answer_1== Answer_1:
 else:
     print("incorrect answer,\nYou lost 10$")
     sys.exit()
-
 your_answer_2=input("\nEnter your answer: ")
 if your_answer_2== Answer_2:
     print("correct answer,\nYou won 20$")
@@ -41,7 +40,6 @@ if your_answer_2== Answer_2:
 else:
     print("incorrect answer,\nYou lost 20$")
     sys.exit()
-
 your_answer_3=input("\nEnter your answer: ")
 if your_answer_3== Answer_3:
     print("correct answer,\nYou won 30$")

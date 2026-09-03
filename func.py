@@ -105,3 +105,9 @@ def shopping_cart(**products):
  print(f"Total: ₹{total}")
 # multiple keyword arguments
 shopping_cart(apple=15, orange=12, mango=10)
+#enumerate() returns index num with the item on the index
+fruits = ['apple', 'banana', 'cherry']
+
+# Using enumerate to get both the index and the item
+for index, fruit in enumerate(fruits):
+    print(f"Index: {index}, Fruit: {fruit}")

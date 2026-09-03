@@ -44,6 +44,12 @@ print(fruits.index("mango"))
 #as_integer_ratio()returns two nums in (x,y)where x/y is a
 a = 0.5
 print(a.as_integer_ratio())
+#
+x = 0.125
+x.as_integer_ratio()
+numerator, denominator = x.as_integer_ratio()
+print(numerator / denominator)
+
 #packing items in a tuple
 a = "Madhav"
 b = 21

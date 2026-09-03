@@ -79,6 +79,8 @@ del set_2
 set_2={"a","b","c","d","e","f","g"}
 set_2.clear()
 print(set_2)
+#numerator()
+#denominator()
 #18.search items
 set_2={"a","b","c","d","e","f","g"}
 if "a" in set_2:

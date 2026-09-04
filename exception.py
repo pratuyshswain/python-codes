@@ -24,6 +24,20 @@ try:
     print(a[num])
 except IndexError:
     print("Try integer as input")
+#finally clause
+def func():
+    try:
+        i=[1,2,3,4,5]
+        l=int(input("Enter the index : "))
+        print(i[l])
+        return 1
+    except:
+        print("Try integer as input")
+        return 0
+    finally:
+        print("End of the loop")
+x=func()
+print(x)
 
 
 
